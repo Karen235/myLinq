@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HR" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=HR;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HRConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Person" Member="Person">
+    <Type Name="Person">
+      <Column Name="Wid" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Id" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="C_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="E_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Photo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="Did" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="RoleClass_Id" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="JOBCODE" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="RoleLevel_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Tel1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Tel2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Tel3" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Msn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Skype" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="Onboard_Date" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="C_Zip" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="C_Addr" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="P_Zip" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="P_Addr" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Is_Married" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="Emergency_Contact" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Emergency_Contact_Tel" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="School_Level" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="School" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Leave_Date" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Leave_Reason" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Show_Index" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Contract_SDate" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Contract_EDate" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="WorkYears" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="JccCompanyName" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Cre_Usr" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Cre_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
